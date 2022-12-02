@@ -1,0 +1,49 @@
+doctype html 
+html
+    head
+        title hello Pug Template
+        link(rel="stylesheet", href="static/css/style.css")
+        link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous')
+    body
+        include ./header.pug 
+        section(id="teams" class="container text-center")
+            h1 Our Team
+            p Teamwork is not just a group of people doing something. It’s the ability to work with others and to help others attain their full potential and achieve the shared goals. As well, teamwork is one of the most desirable skills an employer can seek in its employees.
+            div.row
+                div.col-md-4.d-block.m-auto
+                    figure.figure
+                        img(src="static/images/user.jpg" class="figure-img img-fluid rounded-circle" width="250px" height="250px")
+                        figcaption
+                            h4  Sushil Singh
+                            p.figure-caption Buisness Partner
+                div.col-md-4.d-block.m-auto
+                    figure.figure
+                        img(src="static/images/user.jpg" class="figure-img img-fluid rounded-circle" width="250px" height="250px")
+                        figcaption
+                            h4 Ritvit kumar
+                            p.figure-caption Devloper
+                div.col-md-4.d-block.m-auto
+                    figure.figure
+                        img(src="static/images/user.jpg" class="figure-img img-fluid rounded-circle" width="250px" height="250px")
+                        figcaption
+                            h4 Avni dubey
+                            p.figure-caption HR
+                div.col-md-4.d-block.m-auto
+                    figure.figure
+                        img(src="static/images/user.jpg" class="figure-img img-fluid rounded-circle" width="250px" height="250px")
+                        figcaption
+                            h4 Rahul Srivastav
+                            p.figure-caption QA
+                div.col-md-4.d-block.m-auto
+                    figure.figure
+                        img(src="static/images/user.jpg" class="figure-img img-fluid rounded-circle" width="250px" height="250px")
+                        figcaption
+                            h4 Praveen Nayaik
+                            p.figure-caption Merchant
+                div.col-md-4.d-block.m-auto
+                    figure.figure
+                        img(src="static/images/user.jpg" class="figure-img img-fluid rounded-circle" width="250px" height="250px")
+                        figcaption
+                            h4 Roshan Sharma
+                            p.figure-caption Devloper
+    script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous")

@@ -1,0 +1,48 @@
+.navbar-brand {
+    letter-spacing: 3px;
+    color: #100b0b;
+  }
+
+body{
+  background-image: url(../images/bgg.jpg);
+}
+  
+  .navbar-brand:hover {
+      color: #5c01cc;
+  }
+  
+  .navbar-scroll .nav-link,
+  .navbar-scroll .fa-bars {
+    color: #f73596;
+  }
+  
+  .navbar-scrolled .nav-link,
+  .navbar-scrolled .fa-bars {
+    color: #7f4722;
+  }
+  
+  .navbar-scrolled {
+    background-color: #db8366;
+  }
+
+.headerset{
+    padding-top:200px;
+    box-sizing: border-box;
+}
+.headerset h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+.headerset h2{
+    font-size: 40px;
+}
+.ourservices{
+    padding: 100px 60px;
+}
+.welcome{
+  padding: 90px;
+  height: 550px;
+}
+footer{
+  text-align: center;
+}
